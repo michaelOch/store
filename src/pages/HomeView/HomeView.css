@@ -1,0 +1,133 @@
+@import '../../utils/theme.css';
+
+.home-section .slide-content {
+    height: 75vh;
+    /* width: 70%; */
+}
+
+.home-section .slide-content-caption {
+    max-width: 550px;
+}
+
+.home-section .slide-content-caption h1 {
+    color: var(--theme-dark);
+}
+
+.home-section td {
+    color: var(--theme-lighter-dark);
+}
+
+/* Product List Section */
+.list-section h5 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.list-section ul {
+    list-style: none;
+}
+
+.list-section a {
+    color: var(--theme-black);
+}
+
+.list-section a:hover {
+    text-decoration: none;
+}
+
+/* Deals Section */
+.deal-section {
+    background-color: var(--theme-gray);
+}
+
+.deal-section .avatar {
+    max-height: 400px;
+}
+
+/* Trend Section */
+.trend-section {
+    background-color: var(--theme-gray);
+}
+
+/* Best Product Section */
+.best-product-section .section-caption {
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/* New Product Section */
+.new-product-section {
+    background-color: var(--theme-gray);
+}
+
+/* Skin Care Product Section */
+.skin-product-section .skincare-caption {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding-right: 20% !important;
+}
+
+.skin-product-section .skincare-caption a {
+    color: var(--theme-black);
+}
+
+.skin-product-section .skincare-caption a:hover {
+    text-decoration: none;
+}
+
+/* Category Section */
+.category-section {
+    background-color: var(--theme-gray);
+}
+
+/* Newsletter Section */
+.subscription-section {
+    background-color: var(--theme-grey);
+}
+
+.subscription-section .form-control-custom:focus {
+    border-color: var(--theme-light);
+    box-shadow: 0 0 8px var(--theme-grey);
+}
+
+.subscription-section .input-group-text {
+    background-color: var(--theme-black);
+    color: var(--theme-light);
+}
+
+.subscription-section .input-group-text a {
+    background-color: var(--theme-black);
+    color: var(--theme-light);
+}
+
+.subscription-section .input-group-text a:hover {
+    text-decoration: none;
+}
+
+.deal-section, .trend-section, .new-product-section {
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .best-product-section .section-caption {
+        align-items: center !important;
+    }
+
+    .best-product-section .best-product-caption {
+        font-size: 22px;
+    }
+
+    .subscription-section .input-group {
+        flex-direction: column;
+    }
+
+    .subscription-section .input-group > .form-control {
+        width: 100%;
+    }
+
+    .subscription-section .input-group .input-group-append {
+        margin-top: 0.5rem;
+    }
+}

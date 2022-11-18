@@ -1,0 +1,52 @@
+@import '../../../utils/theme.css';
+
+/* .dashboard-category {
+    background-color: var(--theme-gray);
+} */
+
+.dashboard-category .table-wrapper {
+    background-color: var(--theme-light);
+    /* min-height: 83vh; */
+}
+
+.dashboard-category .btn-secondary {
+    background-color: var(--theme-secondary);
+    border: 1px solid var(--theme-secondary);
+    color: var(--theme-light);
+    transition: 0.8s;
+}
+
+.dashboard-category .btn-secondary:hover {
+    background-color: var(--theme-light);
+    border: 1px solid var(--theme-secondary);
+    color: var(--theme-secondary);
+}
+
+.dashboard-category td,
+.dashboard-category th {
+    vertical-align: middle;
+}
+
+.dashboard-category .icon {
+    cursor: pointer;
+}
+
+.dashboard-category td img {
+    height: 60px;
+    cursor: pointer;
+}
+
+.dashboard-category .close {
+    outline: none;
+}
+
+.dashboard-category img {
+    max-width: 100%;
+}
+
+.dashboard-category .category-badge {
+    background-color: var(--theme-light);
+    border: 1px solid var(--theme-gray);
+    border-radius: 25px;
+    padding: 0.5rem;
+}

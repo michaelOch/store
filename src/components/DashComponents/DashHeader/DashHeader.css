@@ -1,0 +1,32 @@
+@import '../../../utils/theme.css';
+
+.dash-header {
+    color: var(--theme-light);
+    height: 9vh;
+    margin-left: 210px;
+}
+
+.dash-header nav {
+    background-color: var(--theme-gray);
+    color: var(--theme-light-dark);
+    height: 9vh;
+    margin-left: 210px;
+}
+
+.dash-header .navbar-toggler:focus,
+.dash-header .navbar-toggler:active {
+  outline: 0;
+}
+
+.dash-header .notification {
+    position: absolute;
+    top: -5px;
+    left: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+    .dash-header,
+    .dash-header nav {
+        margin: 0;
+    }
+}

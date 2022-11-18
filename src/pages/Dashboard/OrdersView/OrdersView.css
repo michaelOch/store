@@ -1,0 +1,62 @@
+@import '../../../utils/theme.css';
+
+/* .dashboard-orders {
+    background-color: var(--theme-gray);
+} */
+
+.dashboard-orders a {
+    color: var(--theme-black);
+}
+
+.dashboard-orders a:hover {
+    text-decoration: none;
+}
+
+.dashboard-orders .table-wrapper {
+    background-color: var(--theme-light);
+    min-height: 83vh;
+}
+
+.dashboard-orders .nav-tabs {
+    border-bottom: 3px solid var(--theme-info);
+}
+
+.dashboard-orders .nav-tabs li a.active {
+    background-color: var(--theme-info);
+    border: 3px solid var(--theme-info);
+    color: var(--theme-light);
+}
+
+.dashboard-orders .tab-header {
+    font-weight: bold;
+}
+
+.dashboard-orders td,
+.dashboard-orders th {
+    vertical-align: middle;
+}
+
+.dashboard-orders .icon {
+    cursor: pointer;
+}
+
+.dashboard-orders .btn-secondary {
+    background-color: var(--theme-secondary);
+    border: 1px solid var(--theme-secondary);
+    color: var(--theme-light);
+    transition: 0.8s;
+}
+
+.dashboard-orders .btn-secondary:hover {
+    background-color: var(--theme-secondary);
+    border: 1px solid var(--theme-secondary);
+    color: var(--theme-light);
+}
+
+.dashboard-orders img {
+    max-width: 100%;
+}
+
+.dashboard-orders .close {
+    outline: none;
+}

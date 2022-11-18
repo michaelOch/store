@@ -1,0 +1,21 @@
+@import '../../../utils/theme.css';
+
+.dashboard-home .text-info {
+    color: var(--theme-light-dark) !important;
+}
+
+.dashboard-home a {
+    color: var(--theme-light);
+}
+
+.dashboard-home a:hover {
+    text-decoration: none;
+}
+
+.dashboard-home h4 {
+    color: var(--theme-dark);
+}
+
+.dashboard-home .box {
+    box-shadow: 5px 5px 5px var(--theme-gray);
+}

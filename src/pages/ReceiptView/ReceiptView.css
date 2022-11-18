@@ -1,0 +1,32 @@
+@import '../../utils/theme.css';
+
+/* .payment-section {
+    background-color: var(--theme-gray);
+} */
+
+.payment-section a {
+    color: var(--theme-primary);
+}
+
+.payment-section a:hover {
+    text-decoration: none;
+}
+
+.payment-section .payment-header {
+    color: var(--theme-primary);
+}
+
+.payment-section .payment-header nav {
+    background-color: var(--theme-light);
+    color: var(--theme-primary);
+    box-shadow: 0 0 8px var(--theme-grey);
+}
+
+.payment-section .payment-content {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.payment-section a {
+    color: var(--theme-primary);
+}

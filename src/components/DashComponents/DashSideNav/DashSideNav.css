@@ -1,0 +1,63 @@
+@import '../../../utils/theme.css';
+
+/* .sidebar-overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: var(--theme-black);
+    opacity: 0.2;
+    z-index: 7;
+    display: none;
+} */
+
+.sidebar-nav {
+    background-color: var(--theme-dark);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 210px;
+}
+
+.sidebar-nav.sidebar-show {
+    display: flex;
+    width: 70%;
+    left: -100%;
+    animation: sidebar-open 0.75s forwards;
+}
+
+@keyframes sidebar-open {
+    100% {
+        left: 0;
+    }
+}
+
+.sidebar-nav a {
+    color: var(--theme-light);
+    font-size: 1.2rem;
+}
+
+.sidebar-nav a:hover {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .sidebar-nav {
+        display: none;
+    }
+
+    /* Content Section */
+    .content-section {
+        margin: 0;
+        margin-top: 10vh;
+    }
+
+    .sidebar-nav {
+        top: 9vh;
+    }
+}

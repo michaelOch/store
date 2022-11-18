@@ -1,0 +1,55 @@
+@import '../../../utils/theme.css';
+
+/* .dashboard-products {
+    background-color: var(--theme-gray);
+} */
+
+.dashboard-products .table-wrapper {
+    background-color: var(--theme-light);
+    min-height: 83vh;
+}
+
+.dashboard-products .btn-secondary {
+    background-color: var(--theme-secondary);
+    border: 1px solid var(--theme-secondary);
+    color: var(--theme-light);
+    transition: 0.8s;
+}
+
+.dashboard-products .btn-secondary:hover {
+    background-color: var(--theme-light);
+    border: 1px solid var(--theme-secondary);
+    color: var(--theme-secondary);
+}
+
+.dashboard-products td,
+.dashboard-products th {
+    vertical-align: middle;
+}
+
+.dashboard-products .icon {
+    cursor: pointer;
+}
+
+.dashboard-products td img {
+    height: 60px;
+}
+
+.dashboard-products img {
+    max-width: 100%;
+}
+
+.dashboard-products .close {
+    outline: none;
+}
+
+.dashboard-products .category-badge {
+    background-color: var(--theme-light);
+    border: 1px solid var(--theme-gray);
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+
+.btn-xs {
+    height: 35px;
+}

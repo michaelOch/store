@@ -1,0 +1,121 @@
+@import './utils//theme.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+/* h2, h3 {
+    font-family: 'Signika', sans-serif;
+} */
+
+.container {
+    margin: 0 auto;
+    max-width: 92%;
+}
+
+.logo {
+    height: 70px;
+}
+
+/* .btn {
+    border-radius: 25px;
+} */
+
+a {
+    color: inherit;
+}
+
+.btn:disabled {
+    background-color: var(--theme-gray);
+    border-color: var(--theme-gray);
+    color: var(--theme-black);
+}
+
+.btn:disabled:hover {
+    background-color: var(--theme-gray);
+    border-color: var(--theme-gray);
+    color: var(--theme-black);
+    cursor: not-allowed;
+}
+
+.btn-primary {
+    background-color: var(--theme-primary);
+    color: var(--theme-light);
+    border-color: var(--theme-primary);
+    transition: 0.8s;
+}
+
+.btn-primary:hover {
+    background-color: var(--theme-light);
+    color: var(--theme-primary);
+    border-color: var(--theme-primary);
+}
+
+.btn-secondary {
+    background-color: var(--theme-secondary);
+    color: var(--theme-light);
+    border-color: var(--theme-secondary);
+    transition: 0.8s;
+}
+
+.btn-secondary:hover {
+    background-color: var(--theme-light);
+    color: var(--theme-secondary);
+    border-color: var(--theme-secondary);
+}
+
+.btn-dark {
+    background-color: var(--theme-dark);
+    color: var(--theme-light);
+    border-color: var(--theme-dark);
+    transition: 0.8s;
+}
+
+.btn-dark:hover {
+    background-color: var(--theme-light);
+    color: var(--theme-dark);
+    border-color: var(--theme-dark);
+}
+
+.form-control {
+    background-color: var(--theme-light);
+    /* color: var(--theme-primary); */
+    font-size: 16px;
+}
+
+.form-control::placeholder {
+    /* color: var(--theme-primary); */
+    opacity: 0.3;
+}
+
+.form-control:focus {
+    border-color: var(--theme-light);
+    box-shadow: 0 0 8px var(--theme-grey);
+}
+
+.transparent-btn {
+    background-color: var(--theme-light);
+    border: none;
+}
+
+.transparent-btn:focus,
+.transparent-btn:active {
+    outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 98%;
+    }
+}

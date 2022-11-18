@@ -1,0 +1,29 @@
+@import '../../utils/theme.css';
+
+.shop-section {
+    background-color: var(--theme-gray);
+}
+
+.shop-section .btn-light {
+    background-color: var(--theme-light);
+    border-color: var(--theme-grey);
+    color: var(--theme-black);
+}
+
+.shop-section a {
+    color: var(--theme-black);
+}
+
+.shop-section a:hover {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .shop-section .advert {
+        order: 2;
+    }
+    
+    .shop-section .shop-content {
+        order: 1;
+    }
+}

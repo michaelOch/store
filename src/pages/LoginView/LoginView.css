@@ -1,0 +1,67 @@
+@import '../../utils/theme.css';
+
+/* .login-section {
+    background-color: var(--theme-gray);
+    height: 100vh;
+    overflow-y: auto;
+} */
+
+.login-section a {
+    color: var(--theme-primary);
+}
+
+.login-section a:hover {
+    text-decoration: none;
+}
+
+.login-section .login-header {
+    color: var(--theme-primary);
+}
+
+.login-section .login-header nav {
+    background-color: var(--theme-light);
+    color: var(--theme-primary);
+    box-shadow: 0 0 8px var(--theme-grey);
+}
+
+.login-section .login-content {
+    padding-top: 10rem;
+}
+
+.login-section .login-content a {
+    color: var(--theme-secondary);
+}
+
+.login-section .login-content a:hover {
+    text-decoration: none;
+}
+
+.login-section .login-content h2 {
+    color: var(--theme-dark);
+}
+
+.login-section .btn-primary {
+    background-color: var(--theme-primary);
+    border: 1px solid var(--theme-primary);
+    color: var(--theme-light);
+    transition: 0.8s;
+}
+
+.login-section .btn-primary:hover {
+    background-color: var(--theme-light);
+    border: 1px solid var(--theme-primary);
+    color: var(--theme-primary);
+}
+
+.login-section .btn-info {
+    background-color: var(--theme-secondary);
+    border: 1px solid var(--theme-secondary);
+    color: var(--theme-light);
+    transition: 0.8s;
+}
+
+.login-section .btn-info:hover {
+    background-color: var(--theme-light);
+    border: 1px solid var(--theme-secondary);
+    color: var(--theme-secondary);
+}

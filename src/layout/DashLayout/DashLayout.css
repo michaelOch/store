@@ -1,0 +1,10 @@
+.view-container {
+    /* margin-top: 9vh; */
+    margin-left: 210px;
+}
+
+@media only screen and (max-width: 992px) {
+    .view-container {
+        margin: 0;
+    }
+}

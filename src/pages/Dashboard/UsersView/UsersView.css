@@ -1,0 +1,40 @@
+@import '../../../utils/theme.css';
+
+/* .dashboard-users {
+    background-color: var(--theme-gray);
+} */
+
+.dashboard-users .table-wrapper {
+    background-color: var(--theme-light);
+    min-height: 83vh;
+}
+
+.dashboard-users .btn-secondary {
+    background-color: var(--theme-secondary);
+    border: 1px solid var(--theme-secondary);
+    color: var(--theme-light);
+    transition: 0.8s;
+}
+
+.dashboard-users .btn-secondary:hover {
+    background-color: var(--theme-light);
+    border: 1px solid var(--theme-secondary);
+    color: var(--theme-secondary);
+}
+
+.dashboard-users td,
+.dashboard-users th {
+    vertical-align: middle;
+}
+
+.dashboard-users .icon {
+    cursor: pointer;
+}
+
+.dashboard-users img {
+    max-width: 100%;
+}
+
+.dashboard-users .close {
+    outline: none;
+}

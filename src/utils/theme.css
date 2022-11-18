@@ -1,0 +1,15 @@
+:root {
+    --theme-primary: #fa0002;
+    /* --theme-primary: #64ad33; */
+    --theme-secondary: #f17c36;
+    --theme-light: #ffffff;
+    --theme-info: #f17c36;
+    --theme-dark: #553416;;
+    --theme-grey: #e1e1e1;
+    --theme-light-grey: #f2f2f2;
+    --theme-gray: #fafafa;
+    /* --theme-gray: #d3d3d3; */
+    --theme-black: #000000;
+    --theme-light-dark: #444;
+    --theme-lighter-dark: #777777;
+}

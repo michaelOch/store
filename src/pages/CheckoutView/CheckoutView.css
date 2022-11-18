@@ -1,0 +1,74 @@
+@import '../../utils/theme.css';
+
+.checkout-section {
+    background-color: var(--theme-gray);
+}
+
+.checkout-section a {
+    color: var(--theme-primary);
+}
+
+.checkout-section a:hover {
+    text-decoration: none;
+}
+
+.checkout-section .checkout-header {
+    color: var(--theme-primary);
+}
+
+.checkout-section .checkout-header nav {
+    background-color: var(--theme-light);
+    color: var(--theme-primary);
+    box-shadow: 0 0 8px var(--theme-grey);
+}
+
+.checkout-section .checkout-content {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.checkout-section a {
+    color: var(--theme-primary);
+}
+
+.checkout-section a:hover {
+    text-decoration: none;
+}
+
+.checkout-section .checkout-container {
+    background-color: var(--theme-light);
+}
+
+.checkout-section .checkout-container textarea {
+    color: var(--theme-black);
+}
+
+.checkout-section td, .checkout-section th {
+    vertical-align: middle;
+}
+
+.checkout-section .form-control:focus {
+    border-color: var(--theme-light);
+    box-shadow: 0 0 8px var(--theme-grey);
+}
+
+.checkout-section h5 {
+    color: var(--theme-ligher-dark);
+}
+
+.checkout-section h6 {
+    color: var(--theme-dark);
+}
+
+.checkout-section p {
+    color: var(--theme-ligher-dark);
+}
+
+.checkout-section .product-avatar {
+    max-height: 60px;
+}
+
+.checkout-section .table-cart td {
+    display: flex;
+    justify-content: flex-start;
+}

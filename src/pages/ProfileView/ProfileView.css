@@ -1,0 +1,15 @@
+@import '../../utils/theme.css';
+
+/* .profile-section .profile-avatar-container {
+    border: 3px solid var(--theme-lighter-dark);
+    border-radius: 50px;
+} */
+
+.profile-section h4,
+.profile-section .tag {
+    color: var(--theme-lighter-dark);
+}
+
+.profile-section .close {
+    outline: none;
+}

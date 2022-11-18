@@ -1,0 +1,105 @@
+@import '../../utils/theme.css';
+
+.product-item {
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    /* background-color: yellow; */
+    padding: 10px;
+}
+
+.product-item a:hover {
+    text-decoration: none;
+}
+
+.product-item .product-title {
+    color: var(--theme-black);
+}
+
+.product-size {
+    display: flex;
+    justify-content: center;
+}
+
+.product-item .product-price {
+    color: var(--theme-primary);
+}
+
+.product-item .avatar-container {
+    height: inherit;
+    width: inherit;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-item .avatar-container img {
+    height: auto;
+    width: auto;
+}
+
+.product-item .basket-container {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+@keyframes basketeer {
+    from {height: 0;}
+    to {height: 35;}
+}
+
+.product-item .add-to-basket {
+    background-color: blue;
+    display: none;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.product-item .basket-container:hover .add-to-basket {
+    position: absolute;
+    bottom: 0px;
+    height: 35px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 1;
+    animation-name: basketeer;
+    animation-duration: .5s;
+}
+
+.product-item .prescription-wrapper {
+    height: 27px;
+    width: 150px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 21px;
+    left: -40px;
+}
+
+.product-item  .product-status {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -10px;
+    margin-right: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-item .status-new {
+    background-color: lightgreen;
+}
+
+.product-item .status-sold {
+    background-color: red;
+}

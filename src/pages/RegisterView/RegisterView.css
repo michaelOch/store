@@ -1,0 +1,67 @@
+@import '../../utils/theme.css';
+
+/* .register-section {
+    background-color: var(--theme-gray);
+    height: 100vh;
+    overflow-y: auto;
+} */
+
+.register-section a {
+    color: var(--theme-primary);
+}
+
+.register-section a:hover {
+    text-decoration: none;
+}
+
+.register-section .register-header {
+    color: var(--theme-primary);
+}
+
+.register-section .register-header nav {
+    background-color: var(--theme-light);
+    color: var(--theme-primary);
+    box-shadow: 0 0 8px var(--theme-grey);
+}
+
+.register-section .register-content {
+    padding-top: 8rem;
+}
+
+.register-section .register-content a {
+    color: var(--theme-secondary);
+}
+
+.register-section .register-content a:hover {
+    text-decoration: none;
+}
+
+.register-section .register-content h2 {
+    color: var(--theme-dark);
+}
+
+.register-section .btn-primary {
+    background-color: var(--theme-primary);
+    border: 1px solid var(--theme-primary);
+    color: var(--theme-light);
+    transition: 0.8s;
+}
+
+.register-section .btn-primary:hover {
+    background-color: var(--theme-light);
+    border: 1px solid var(--theme-primary);
+    color: var(--theme-primary);
+}
+
+.register-section .btn-info {
+    background-color: var(--theme-secondary);
+    border: 1px solid var(--theme-secondary);
+    color: var(--theme-light);
+    transition: 0.8s;
+}
+
+.register-section .btn-info:hover {
+    background-color: var(--theme-light);
+    border: 1px solid var(--theme-secondary);
+    color: var(--theme-secondary);
+}
