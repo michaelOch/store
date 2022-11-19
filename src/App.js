@@ -103,18 +103,20 @@ function App() {
         
         if (!cart) {
             const newCart = [];
-            // product["quantity"] = 1;
-            // product["subTotal"] = !itemIndex ? product.sizing[0].price : product.sizing[itemIndex].price;
-            // product["price"] = !itemIndex ? product.sizing[0].price : product.sizing[itemIndex].price;
+            if (!product.quantity) product["quantity"] = 1;
+            if (!product.subTotal) product["subTotal"] = !itemIndex ? product.sizing[0].price : product.sizing[itemIndex].price;
+            if (!product.price) product["price"] = !itemIndex ? product.sizing[0].price : product.sizing[itemIndex].price;
+
             newCart.push(product);
             Cookies.set('cart', JSON.stringify(newCart), { expires: 30 });
             setCart(JSON.parse(Cookies.get('cart')));
         } else {
             // alert(JSON.stringify(product))
             const newCart = cart;
-            // product["quantity"] = 1;
-            // product["subTotal"] = !itemIndex ? product.sizing[0].price : product.sizing[itemIndex].price;
-            // product["price"] = !itemIndex ? product.sizing[0].price : product.sizing[itemIndex].price;
+            if (!product.quantity) product["quantity"] = 1;
+            if (!product.subTotal) product["subTotal"] = !itemIndex ? product.sizing[0].price : product.sizing[itemIndex].price;
+            if (!product.price) product["price"] = !itemIndex ? product.sizing[0].price : product.sizing[itemIndex].price;
+            
             const isInCart = newCart.filter(item => item._id === product._id);
             if (isInCart.length <= 0) {
                 newCart.push(product);
