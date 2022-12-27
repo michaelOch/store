@@ -28,8 +28,7 @@ function ProductsCarousel({ title, products, user, cart, addToCart, removeFromCa
                         ))
                     }
                 </div>
-                <a className="carousel-control-prev" href={`#carousel-${title.slice(0, 2)}`} role="button" data-slide="prev">
-                    {/* <span className="carousel-control-prev-icon" aria-hidden="true"></span> */}
+                {/* <a className="carousel-control-prev" href={`#carousel-${title.slice(0, 2)}`} role="button" data-slide="prev">
                     <FontAwesomeIcon 
                         icon={faAngleLeft} 
                         color={theme.colors.black}
@@ -38,14 +37,13 @@ function ProductsCarousel({ title, products, user, cart, addToCart, removeFromCa
                     <span className="sr-only">Previous</span>
                 </a>
                 <a className="carousel-control-next" href={`#carousel-${title.slice(0, 2)}`} role="button" data-slide="next">
-                    {/* <span className="carousel-control-next-icon" aria-hidden="true"></span> */}
                     <FontAwesomeIcon 
                         icon={faAngleRight} 
                         color={theme.colors.black}
                         className="carousel-control-next-icon" 
                     />
                     <span className="sr-only">Next</span>
-                </a>
+                </a> */}
             </div>
         </div>
     )

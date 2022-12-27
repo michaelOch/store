@@ -42,7 +42,7 @@ function HomeView({ user, setUser, products, categories, cart, addToCart, remove
                     <div className="row">
                         <div className="carousel-inner mb-3">
                             <div className="carousel-item active">
-                                <div className="d-flex justify-content-end align-items-center border rounded slide-content" style={{backgroundImage: `url(${banner3})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom', backgroundSize: 'cover'}} >
+                                <div className="d-flex justify-content-end align-items-center border rounded slide-content" style={{backgroundImage: `url(${banner2})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover'}} >
                                     <div className="d-flex align-items-center justify-content-center slide-content-caption p-3">
                                         {/* <h1 className="text-center font-weight-bold">Welcome to Wellocity Pharmacy</h1> */}
                                     </div>
@@ -56,7 +56,7 @@ function HomeView({ user, setUser, products, categories, cart, addToCart, remove
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <div className="d-flex justify-content-end align-items-center border rounded slide-content" style={{backgroundImage: `url(${banner2})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover'}} >
+                                <div className="d-flex justify-content-end align-items-center border rounded slide-content" style={{backgroundImage: `url(${banner3})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover'}} >
                                     <div className="d-flex align-items-center justify-content-center slide-content-caption p-3">
                                         {/* <h1 className="text-center font-weight-bold">Have your medicine delivered to your door step</h1> */}
                                     </div>

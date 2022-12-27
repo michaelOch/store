@@ -222,9 +222,7 @@ function Header({ user, setUser, categories, products, cart }) {
                                                                             group.categories.map(category => (
                                                                                 <div key={category.name} className="mx-3 my-1">
                                                                                     <h5 className="">
-                                                                                        <Link to={`/shop/${category.name}`}>
-                                                                                            <span className="cat-name" style={{color: theme.colors.primary}}>{category.name}</span>
-                                                                                        </Link>
+                                                                                        <span className="cat-name" style={{color: theme.colors.primary}}>{category.name}</span>
                                                                                     </h5>
                                                                                     {
                                                                                         category.subcategories.map(subCat => (
