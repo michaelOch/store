@@ -37,7 +37,7 @@ function ProductItem({ product, user, cart, addToCart, removeFromCart }) {
                     }}>
                     {
                         product.image[0] !== undefined ? 
-                            <img src={`${apiBaseUrl}${product.image[0]}`} alt="product avatar" className="d-block w-100" />
+                            <img src={`${product.image[0]?.url}`} alt="product avatar" className="d-block w-100" />
                             : <FontAwesomeIcon icon={faBan} color={theme.colors.lighterDark} size="2x" style={{marginTop: '30px'}} 
                         />
                     }

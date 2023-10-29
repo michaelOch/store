@@ -457,7 +457,7 @@ function ProductsView({ user, setUser }) {
                                                     </td>
                                                     <td colSpan="3" className="p-2">
                                                         <div className="d-flex justify-content-between align-items-center">
-                                                            <img src={`${apiBaseUrl}${product?.image[0]}`} alt={product.name} className="d-block mx-auto" />
+                                                            <img src={`${product?.image[0]?.url}`} alt={product.name} className="d-block mx-auto" />
                                                             {/* {
                                                                 product.image ? 
                                                                     product.image.length > 0 ? 
@@ -508,7 +508,7 @@ function ProductsView({ user, setUser }) {
                                                 {
                                                     product.image ? 
                                                         product.image.length > 0 ?       
-                                                            <img src={`${apiBaseUrl}${product.image[0]}`} alt="product" className="d-block mx-auto" />
+                                                            <img src={`${product.image[0]?.url}`} alt="product" className="d-block mx-auto" />
                                                             : null
                                                         : null
                                                 }

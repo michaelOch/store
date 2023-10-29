@@ -123,7 +123,7 @@ function ProductView({ match, user, setUser, products, categories, cart, addToCa
                                             <div className="position-relative avatar-container">
                                                 {
                                                     !!selectedProduct && selectedProduct.image[0] !== undefined ? 
-                                                        <img src={`${apiBaseUrl}${selectedProduct.image ? selectedProduct.image[0] : null}`} alt="product" className="d-block" />
+                                                        <img src={`${selectedProduct.image ? selectedProduct.image[0]?.url : null}`} alt="product" className="d-block" />
                                                         : <FontAwesomeIcon icon={faBan} color={theme.colors.lighterDark} size="3x" style={{marginTop: '80px'}} />
                                                 }
                                             </div>
