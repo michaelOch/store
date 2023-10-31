@@ -347,7 +347,7 @@ function ProductsView({ user, setUser }) {
 
     const changeImage = (e) => {
         const images = Array.from(e.target.files)
-        console.log("CHange IMage: ", images)
+        // console.log("CHange IMage: ", images)
         setImages(images)
     }
 
